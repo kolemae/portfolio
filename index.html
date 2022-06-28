@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
 
+    <!-- Import Iconify for Tableau icon-->
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+
     <!-- Custom styles for this template -->
     <link href="assets/css/app.css" rel="stylesheet" />
     <title>Kole (Nicole) White | Portfolio</title>
@@ -32,7 +35,7 @@
         <!-- Utilizes flexbox styling not taught in class -->
         <section class="fragment fragment-one">
             <div class="headers">
-                <span class="w3-text-white" style="text-shadow:1px 1px 0 #556B2F">
+                <span class="w3-text-white" style="text-shadow:2px 2px 0 #556B2F">
                     <h1> Kole White </h1></span>
                 <h3> Data Analyst | UX Designer</h3>
             </div>
@@ -58,10 +61,10 @@
                         <!-- Edit this text with a brief intoduction / brand statement etc. -->
                         <h5>
                             I'm currently enrolled in a Data Analytics Bootcamp through University of Oregon and working towards a career change.
-                            Learning skills in Excel, VBA, Python, SQL, HTML/CSS, Javascript, Tableau, and R.
+                            Most recently learning skills in HTML/CSS, Javascript, Tableau, and R.
                             I'm punctual and driven to continuously improve processes, documentation, and cross-training.
                             Highly focused on accuracy with strong planning and organizational skills.
-                            My strengths include extraordinary interpersonal skills, ability to work independently, and curiosity that keeps me learning!
+                            I have a curiosity that drives me to keep learning!
                         </h5>
                     </div>
                 </div>
@@ -88,49 +91,44 @@
                 <!-- begin carousel -->
                 <!-- you should replace the placeholder images with actual images from your projects -->
                 <!-- images should be 800*600 or a matching ratio for best results -->
-                <div id="portfolioCarousel" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#portfolioCarousel" data-slide-to="0" class="active custom-indicator">
-                        </li>
-                        <li data-target="#portfolioCarousel" data-slide-to="1" class="custom-indicator"></li>
-                        <li data-target="#portfolioCarousel" data-slide-to="2" class="custom-indicator"></li>
-                    </ol>
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" height="400">
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-
-                            <!-- image here
-                            <img src="assets/images/placeholder.png" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>First slide label</h5>
-                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                                <button class="btn btn-primary">View Code</button>
-                            </div>
+                      <div class="carousel-item active">
+                        <a href="https://github.com/kolemae/Mapping_Earthquakes">
+                            <img class="d-block w-100" src="https://github.com/kolemae/Mapping_Earthquakes/raw/main/Earthquake_Challenge/static/images/Map.png" alt="Mapping Earthquakes" style="width:1000px">
+                          </a>
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Mapping Earthquakes</h5>
+                            <p>Project using Javascript, CSS, and HTML to format and display data for earthquakes on a map.</p>
+                          </div>
                         </div>
-                        <div class="carousel-item" -->
-
-                            <!-- image here
-                            <img src="assets/images/placeholder.png" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Second slide label</h5>
-                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                                <button class="btn btn-primary">View Code</button>
-                            </div>
-                        </div>
-                        <div class="carousel-item"> -->
-
-                            <!--image here -->
-                            <!-- <img src="assets/images/placeholder.png" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Third slide label</h5>
-                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                                <button class="btn btn-primary">View Code</button> -->
-                            </div>
-                        </div>
+                      <div class="carousel-item">
+                        <a href="https://github.com/kolemae/bikesharing">
+                            <img class="d-block w-100" src="https://github.com/kolemae/bikesharing/raw/main/Images/Customer_Peak.png" alt="Bikesharing" style="width:1000px">
+                          </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Bikesharing</h5>
+                            <p>I created visualizations in Tableau for a start-up bikesharing program in Des Moines, IA called DM BikeShare.</p>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                        <a href="https://github.com/kolemae/UFOs">
+                            <img class="d-block w-100" src="https://github.com/kolemae/UFOs/raw/main/static/images/Filters.png" alt="UFO Sightings" style="width:1000px">
+                          </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>UFO Sightings</h5>
+                            <p>My client asked me to create a website for UFO sightings with filters for different objects.</p>
+                          </div>
                     </div>
-
-                </div>
-            </div>
-
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
         </section>
         <section class="fragment fragment-four">
 
@@ -141,18 +139,18 @@
             <table class="table center">
                 <tr>
                   <td><div class="tech">Python</div></td>
-                  <td><div class="tech">CSS 3</div></td>
+                  <td><div class="tech">JavaScript</div></td>
                   <td><div class="tech">Tableau</div></td>
                 </tr>
                 <tr>
-                  <td><div class="tech">JavaScript</div></td>
+                  <td><div class="tech">Leaflet JS</div></td>
                   <td><div class="tech">Git</div></td>
                   <td><div class="tech">Anaconda</div></td>
                 </tr>
                 <tr>
                     <td><div class="tech">PostgreSQL</div></td>
                     <td><div class="tech">R</div></td>
-                    <td><div class="tech">Leaflet JS</div></td>
+                    <td><div class="tech">CSS 3</div></td>
                   </tr>
               </table>
                 </div>
@@ -188,6 +186,7 @@
                         <!--update these links to match your own social media profiles -->
                         <a href="https://linkedin.com/in/kolemae" class="social-icon"><i class="fab fa-linkedin"></i></a>
                         <a href="https://github.com/kolemae" class="social-icon"><i class="fab fa-github"></i></a>
+                        <a href="https://public.tableau.com/app/profile/nicole.white3373" class="social-icon"><span class="tableau iconify" data-icon="ion:logo-tableau" data-inline="true"></span></a>
                         <a href="mailto:kolemae@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
                         <p class="text-muted copyright">Nicole White &copy; 2022 </p>
                     </div>
