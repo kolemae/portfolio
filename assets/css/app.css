@@ -5,7 +5,7 @@ body {
  }
 
 html, body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
  
 }
 
@@ -118,15 +118,33 @@ h5 {
     max-width: 800px;
 }
 
+.fragment-three .carousel-inner>.active {
+    height: 300px;
+  }
+
 .fragment-three .carousel-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column
+    flex-direction: column;
 }
 
+.fragment-three .carousel-item {
+    height: 300px;
+    overflow: hidden;
+    width: 100%;
+    }
+    
+.fragment-three .carousel-item img {
+    width: 100%;
+    }
+
 .fragment-three .carousel-caption {
-    color: #999
+    background-color: #111;
+    text-align: center;
+    transform: translateY(-70%);
+    position: absolute;
+    color: #999;
 }
 
 .fragment-three .custom-indicator {
@@ -214,4 +232,4 @@ a:link, a:visited {
 a:hover, a:active, a:hover p, a:hover i {
     color: #C0C0C0 !important;
     text-decoration: none;
-   } /* link for "What I Know and Can Offer" not changing on hover*/
+   }
